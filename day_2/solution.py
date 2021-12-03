@@ -47,7 +47,7 @@ def apply_command_part_2(horizontal, depth, aim, command):
     return horizontal, depth, aim
 
 
-df = pd.read_csv("/path/to/input.txt")
+df = pd.read_csv("data.txt")
 
 horizontal = 0
 depth = 0
