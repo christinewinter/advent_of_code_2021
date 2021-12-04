@@ -62,7 +62,7 @@ def get_least_common_in_df(df):
 
 
 # PART 1
-df = pd.read_csv("/Users/chwir/workspace/advent_of_code/3/data.txt", header=None, names=["bits"],
+df = pd.read_csv("data.txt", header=None, names=["bits"],
                  converters={'bits': str})
 
 print(find_most_common_value_in_list(df.bits.to_list()))
